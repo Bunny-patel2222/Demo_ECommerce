@@ -39,6 +39,7 @@ public class AddProduct extends BaseTest {
         boolean match = cartPage.VerifyProductDispay(ProductName);
         Assert.assertTrue(match);
         cartPage.checkout();
+        driver.quit();
 
 
     }
