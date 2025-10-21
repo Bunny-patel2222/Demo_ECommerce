@@ -8,6 +8,11 @@
                     <include name="LoginTest"/>
                 </methods>
             </class>
+            <class name="Demo_2.ecommers.AddProduct">
+                <methods>
+                    <include name="AddProductTest"/>
+                </methods>
+            </class>
         </classes>
     </test>
 </suite>
